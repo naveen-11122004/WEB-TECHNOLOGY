@@ -1,0 +1,553 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="index.html" id="logo"><span>T</span>ravel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallary">Gallary</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar End -->
+
+
+
+
+
+    <!-- Home Section Start -->
+    <div class="home">
+        <div class="content">
+            <h5>Welcome To Dream World</h5>
+            <h1>Visit <span class="changecontent"></span></h1>
+            <p>"A journey is best measured in friends, rather than miles."</p>
+            <a href="#book">Book Place</a>
+        </div>
+    </div>
+    <!-- Home Section End -->
+
+
+
+
+
+    <!-- Section Book Start -->
+    <section class="book" id="book">
+      <div class="container">
+
+        <div class="main-text">
+          <h1><span>B</span>ook</h1>
+        </div>
+        
+        <div class="row">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/book-img.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <form action="#">
+
+              <input type="text" class="form-control" placeholder="Where To" required><br>
+              <input type="text" class="form-control" placeholder="How Many" required><br>
+              <input type="date" class="form-control" placeholder="Arrivals" required><br>
+              <input type="date" class="form-control" placeholder="Leaving" required><br>
+              <textarea class="form-control" rows="5" name="text" placeholder="Enter Your Name & Details"></textarea>
+              <input type="submit" value="Book Now" class="submit" required>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- Section Book End -->
+
+
+  <center>
+    <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive" aria-controls="offcanvasResponsive">Travel</button>
+  </center>
+    <div class="alert alert-info  d-lg-block">Travel Insurance: Offering comprehensive travel insurance that covers medical emergencies, trip cancellations, and other unexpected events provides travelers with peace of mind.
+
+      </div>
+    
+    <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasResponsiveLabel">Daily Quotes</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p class="mb-0">Take only memories, leave only footprints.</p>
+      </div>
+    </div>
+
+
+
+
+    <!-- Section Packages Start -->
+    <section class="packages" id="packages">
+      <div class="container">
+        
+        <div class="main-txt">
+          <h1><span>P</span>ackages</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/uk.png" alt="">
+              <div class="card-body">
+                <h3>United Kingdom</h3>
+                <div class="align-baseline">
+                <p>Embark on a journey to the United Kingdom, where centuries of history blend seamlessly with modern charm. 
+                  From the bustling streets of London, where iconic landmarks like Big Ben and Buckingham Palace await, to the picturesque countryside of Scotland and Wales, each corner of the UK offers a unique blend of culture, heritage, and natural beauty. Explore the majestic castles of Edinburgh, sample whisky in the Scottish Highlands, or wander through the charming villages of the Cotswolds. 
+                  Whether you're drawn to the vibrant arts scene of Manchester or the ancient mysteries of Stonehenge, the United Kingdom promises an unforgettable experience for every traveler.</p>
+                </div>
+                  <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>Rs 50,000</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/france.png" alt="">
+              <div class="card-body">
+                <h3>France</h3>
+                <div class="align-baseline">
+                  <p>France is country renowned for its rich history, exquisite cuisine, and romantic ambiance.
+                    Begin your journey in the dazzling city of Paris,where the Eiffel Tower stands as an iconic symbol of French elegance. 
+                    Stroll along the Seine River,visit world-class museums like the Louvre,and indulge in gourmet delights at charming sidewalk cafes. 
+                    Beyond Paris,discover the sun-kissed landscapes of Provence, dotted with lavender fields and ancient Roman ruins.
+                    From the historic châteaux of the Loire Valley to the picturesque vineyards of Bordeaux, each region of France beckons with its own unique charm and cultural treasures, promising an unforgettable journey for every traveler.</p>
+                </div>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>Rs 50,000</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/pakistan.png" alt="">
+              <div class="card-body">
+                <h3>Pakistan</h3>
+                <div class="align-baseline">
+                  <p>Pakistan,a land of breathtaking landscapes, rich cultural heritage, and warm hospitality.
+                    From the towering peaks of the Karakoram and Himalayas to the vast deserts of Thar,Pakistan offers a diverse tapestry of natural beauty. 
+                    Explore the ancient city of Lahore, where Mughal architecture shines in monuments like the Badshahi Mosque and Lahore Fort. 
+                    Wander through the bustling streets of Karachi,a vibrant metropolis by the Arabian Sea, or delve into the tranquil beauty of Hunza Valley, surrounded by snow-capped mountains and turquoise lakes. 
+                    Whether you're drawn to adventure trekking in the nor thern valleys, experiencing the rich traditions of Sindhi culture,unforgettable journey.</p>
+                </div>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>Rs 50,000</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/italy.png" alt="">
+              <div class="card-body">
+                <h3>Italy</h3>
+                <p>Embark on a journey through Italy, where every corner tells a story of art, history, and passion. 
+                  Begin your adventure in Rome, the Eternal City, where ancient ruins like the Colosseum and the Roman Forum stand alongside Renaissance palaces and Baroque fountains. 
+                  Wander through the winding streets of Florence, cradle of the Renaissance, and marvel at masterpieces by Michelangelo, Leonardo da Vinci, and Botticelli in world-renowned museums like the Uffizi Gallery. 
+                  Explore the picturesque canals of Venice, where gondolas glide beneath ornate bridges and palaces. 
+                  Journey to the Amalfi Coast, a Mediterranean paradise with its cliffside villages overlooking turquoise waters. 
+                  Whether savoring authentic Italian cuisine in Bologna, skiing in the Dolomites, or exploring the ancient ruins of beauty, and romance that captivates every traveler.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>Rs 50,000</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/india.png" alt="">
+              <div class="card-body">
+                <h3>India</h3>
+                <p>Embark on a captivating journey through India, a land of vibrant colors, rich history, and cultural diversity. Begin your adventure in the bustling streets of Delhi, where ancient monuments like the Red Fort and Jama Masjid stand as testaments to India's imperial past. Explore the romantic city of Agra, home to the iconic Taj Mahal, a masterpiece of Mughal architecture and a symbol of eternal love. Journey through the royal heritage of Rajasthan, with its majestic palaces in Jaipur, the desert forts of Jodhpur, and the lakeside charm of Udaipur. Witness the spiritual aura of Varanasi, where the Ganges River flows past ancient ghats and temples. Experience the tranquility of Kerala's backwaters, adorned with lush greenery and serene houseboat cruises. Indulge your senses in the flavors of Indian cuisine, from spicy street food to aromatic curries</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>Rs 50,000</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <img src="./images/us.png" alt="">
+              <div class="card-body">
+                <h3>United States</h3>
+                <p>Embark on an unforgettable journey across the diverse landscapes and iconic landmarks of the United States.
+                   Begin your adventure in the bustling metropolis of New York City, where the Statue of Liberty stands as a beacon of freedom and Times Square dazzles with its neon lights. 
+                   Discover the historical treasures of Washington, D.C., from the White House to the Smithsonian museums. Experience the glamour of Los Angeles, where Hollywood stars grace the Walk of Fame and the beaches of Malibu beckon. 
+                  Immerse yourself in the vibrant culture of New Orleans, where jazz music fills the air and Creole cuisine delights the senses. Whether you're drawn to the neon-lit streets of Las Vegas, the serene lakes of the Midwest, or the scenic beauty of the Pacific Northwest, the United States offers endless possibilities for exploration and adventure.</p>
+                <div class="star">
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star checked"></i>
+                  <i class="fa-solid fa-star "></i>
+                  <i class="fa-solid fa-star "></i>
+                </div>
+                <h6>Price: <strong>Rs 50,000</strong></h6>
+                <a href="#book">Book Now</a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+      </div>
+    </section>
+    <!-- Section Packages End -->
+
+
+
+
+
+
+
+    <!-- Section Services Start -->
+    <section class="services" id="services">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>S</span>ervices</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-hotel"></i>
+              <div class="card-body">
+                <h3>Affordable Hotel</h3>
+                <p>Hotels are budget friendly.</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated text-warning" style="width:98%">HOTEL</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-utensils"></i>
+              <div class="card-body">
+                <h3>Food & Drinks</h3>
+                <p>We have soft drimks and chocalates.</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated text-warning" style="width:98%">FOODS</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-bullhorn"></i>
+              <div class="card-body">
+                <h3>Safty Guide</h3>
+                <p>100% safety guidance .</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated text-warning" style="width:98%">GUIDANCE</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-globe-asia"></i>
+              <div class="card-body">
+                <h3>Around The World</h3>
+                <p>Live the life in world not in dream.</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated text-warning" style="width:98%">DREAM</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-plane"></i>
+              <div class="card-body">
+                <h3>Fastest Travel</h3>
+                <p>As a dream you can around a world.</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated text-warning" style="width:98%">QUICK TRIP</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+
+            <div class="card">
+              <i class="fas fa-hiking"></i>
+              <div class="card-body">
+                <h3>Adventures</h3>
+                <p>Epic adventures spots are available.</p>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated text-warning" style="width:98%">ADVENTURES</div>
+                </div>
+              </div>
+            </div>
+
+         
+
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Section Services End -->
+
+
+
+
+    <!-- Section Gallary Start -->
+    <section class="gallary" id="gallary">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1><span>G</span>allary</h1>
+        </div>
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g1.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g2.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g3.png" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row" style="margin-top: 30px;">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g4.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g5.png" alt="" height="230px">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/g6.png" alt="" height="230px">
+            </div>
+          </div>
+        </div>
+          
+      </div>
+    </section>
+    <!-- Section Gallary End -->
+
+
+
+
+
+
+
+    <!-- About Start -->
+    <section class="about" id="about">
+      <div class="container">
+
+        <div class="main-txt">
+          <h1>About <span>Us</span></h1>
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+
+          <div class="col-md-6 py-3 py-md-0">
+            <div class="card">
+              <img src="./images/about-img.png" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6 py-3 py-md-0">
+            <h2>How Travel Agency Work</h2>
+            <p>A travel agency serves as a vital bridge between travelers and their dream destinations, orchestrating seamless journeys from inception to return. 
+              Whether crafting bespoke adventures or curating from a selection of pre-designed packages, their expertise shines in recommending the best flights, accommodations, and experiences. 
+              With every detail meticulously arranged, from booking flights and accommodations to securing visas and travel insurance, travelers are assured of a hassle-free experience. 
+              Throughout the journey, travel agencies provide dedicated support, ensuring smooth transitions and addressing any unexpected challenges. 
+              By nurturing strong relationships with airlines, hotels, and local operators, they secure competitive rates and exclusive offers, delivering unparalleled value and enriching travel experiences. With their commitment to customer satisfaction and passion for exploration, travel agencies transform wanderlust into unforgettable memories, guiding travelers through every step of their adventure with expertise and care.</p>
+            <button id="about-btn">Read More...</button>
+          </div>
+        </div>
+    </section>
+    <!-- About End -->
+  <center>
+      <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+      Dream to travel
+      </button>
+    </p>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        Don’t tell me how educated you are, tell me how much you have travelled
+      </div>
+    </div>
+
+  </center>
+
+
+
+
+    <!-- Footer Start -->
+    <footer id="footer">
+      <h1><span>T</span>ravel</h1>
+      <p>The world is a book, and those who do not travel read only one page.</p>
+      <div class="social-links">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-pinterest-p"></i>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+
+
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
